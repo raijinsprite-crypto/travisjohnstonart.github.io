@@ -46,6 +46,7 @@ ul li {
 ul li a:hover {
     fill: var(--coloraccent);
     color: aliceblue;
+    letter-spacing: 5px;
 }
 
 ul li a {
@@ -54,6 +55,10 @@ ul li a {
     font-family: Arial;
     color: #c3ff00;
 
+}
+
+ul li a:hover:before {
+  transform: scaleX(1);
 }
 /*social buttons*/
 .social-icons {
